@@ -1,0 +1,89 @@
+    @font-face {
+        font-family: 'IDroid' ;
+        src: url('IDroid.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'beba';
+        src: url('BebasNeue-Bold.otf') format('opentype') ;
+    }
+
+    @font-face {
+        font-family: 'bebas';
+        src: url('BebasNeue-Light.otf') format('opentype') ;
+    }
+
+    .titler {
+        font-family: 'IDroid', Times, serif;
+    }
+
+    .titler {
+        color: green;
+        }
+    
+    h1 {
+        color: white;
+        font-family: 'beba', Times, serif;
+        font-size: 3em;
+        
+    }
+
+    h3 {
+        color: white;
+    }
+
+    
+    nav {
+        text-align: left;
+        color: white;
+        padding: 3px;
+        
+    }
+
+    nav > a {
+        text-decoration:none;
+        color: white;
+        font-weight:bold;
+        margin-right: 30px;
+    }
+
+    header {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-image: linear-gradient(to bottom, #33b66d, #1a5c38);
+        text-align: center;
+        box-shadow: 1px 1px 1px 1px black;
+        padding: 3px;
+        margin: 0x;
+    }
+
+    main {
+        margin: auto;    
+        padding: 10px;
+        text-align: justify; 
+        width: 850px;
+        box-shadow: 5px 5px 15px #1a1919d7;
+        background-color: white;
+        text-indent: 5%;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .basico {
+        color: green;
+    }
+    footer {background-color: #1a5c38;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+    }
+
+    body {
+        background-image: linear-gradient(to right, #84e1ad, #84e1ad);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }

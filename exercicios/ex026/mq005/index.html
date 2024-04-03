@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
+
 </head>
 <body>
     <header>
         <h1>Meu site!</h1>
-        <menu>
+        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -23,12 +26,21 @@
     <main>
         <article>
             <h2>Testando midia queries</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et ducimus optio sequi non voluptatibus vero hic corporis quaerat beatae fugit mollitia accusantium molestias esse nulla vitae, obcaecati sapiente inventore.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et ducimus optio sequi non voluptatibus vero hic corporis quaerat beatae fugit mollitia accusantium molestias esse nulla vitae, obcaecati sapiente inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda soluta nesciunt harum necessitatibus, labore vero voluptates tempora minus voluptas laudantium modi nisi ut veniam aut eligendi. Perspiciatis atque accusantium nobis?</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus optio in voluptatem minima a atque quis commodi incidunt tempore nihil quasi facilis explicabo exercitationem quos, aut unde ipsam beatae et?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus optio in voluptatem minima a atque quis commodi incidunt tempore nihil quasi facilis explicabo exercitationem quos, aut unde ipsam beatae et? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos aliquid esse voluptatum fugit cumque assumenda illo deserunt, ad, impedit dolor enim inventore vel aliquam dolore, incidunt ea excepturi magnam laboriosam!</p>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum provident maxime a? Optio incidunt recusandae, libero deserunt odio esse similique iusto, deleniti excepturi voluptas consequuntur et laudantium neque nihil perferendis.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum provident maxime a? Optio incidunt recusandae, libero deserunt odio esse similique iusto, deleniti excepturi voluptas consequuntur et laudantium neque nihil perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis impedit porro quaerat corrupti, cupiditate quidem quas distinctio tempora repellat dolorum. Accusantium maxime quod iste magni ullam consequuntur reprehenderit quaerat debitis.</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+        }
+    </script>    
 </body>
 </html>
